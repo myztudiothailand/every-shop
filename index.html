@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Every Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images2/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="indexabout.html">STICKER LINE</a></li>
+                <li><a href="indexproject.html">APP</a></li>
+                <li><a href="indexshop.html">DIGITAL PRODUCT</a></li>
+                <li><a href="indexcontact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+
+
+<div class="text-box">
+    <h1>เว็บไซต์นี้ได้รวบรวมร้านค้าที่น่าสนใจไว้</h1>
+    <h3>ท่านสามารถซื้อร้านค้า โดยไปยังเว็บไซต์นั้นๆ</h3>
+    <a href="https://www.instagram.com/sukollapat_pis/" class="hero-btn">ติดต่อโฆษณา</a>
+</div>
+
+</section>
+
+<section class="course">
+    <h1>เว็บไซต์นี้ คืออะไร</h1>
+    <p>เว็บไซต์นี้ได้รวบรวมร้านค้าที่น่าสนใจไว้ โดยมีจุดประสงค์เพื่อส่งเสริมการขายซึ่งกันและกัน</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>การเริ่มต้น</h3>
+            <p>หากเราคิดที่จะเริ่มต้นมัน สิ่งต่างๆก็จะสามารถต่อต่อยอดไปได้เอง สร้างฝันของคุณ แล้วทำมัน ไม่มีสิ่งใดที่เราทำไม่ได้หากเราคิดที่จะทำมัน ความสำเร็จจะมาถึง ความคิดเล็กๆอาจนำไปสู่ความยิ่งใหญ่ในอนาคตที่คาดไม่ถึง</p>
+
+        </div>
+        <div class="course-col">
+            <h3>คำคมไอดอลของผม</h3>
+            <p>สตีฟ จ็อบส์ : "ถ้าคุณไม่รักมัน คุณก็จะล้มเหลว" คำคมนี้เป็นที่โด่งดัง และจดจำของคนทั่วโลกรวมถึงผมด้วย สตีฟ จ๊อบส์ เป็นคนที่มีความพยายามสูงเริ่มจากธุรกิจเล็ก จนปัจจุบันมีคนใช้ผลิตภัณฑ์ของเขาแพร่หลาย</p>
+
+        </div>
+        <div class="course-col">
+            <h3>แรงบันดาลใจ</h3>
+            <p>โปรแกรมเมอร์ อินฟลูอเนเซอร์ และ นักธุริกิจที่ประสบความสำเร็จในด้านต่างๆ ซึ่งทุกอาชีพมีจุดเด่นที่แตกต่างกันออกไป เราจึงควรให้ความสำคัญกับทุกสายอาชีพ ถ้าขาดอย่างใดไป ก็ไม่อาจสมบูรณ์ได้</p>
+
+        </div>
+
+    </div>
+</section>
+    
+<section class="campus">
+    <h1>ต้องการดูสินค้าชิ้นไหน กดค้างที่รูปนั้นและกดที่ตัวอักษรที่ลอยขึ้นมา</h1>
+    <!--<p>การเรียนด้านเทคโนโลยี สามารถต่อยอดได้หลายสาขางาน</p>-->
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images2/stickerindex.png">
+            <div class="layer">
+                <a href="indexabout.html"><h3>STICKER</h3></a>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images2/appindex.png">
+            <div class="layer">
+                <a href="indexproject.html"><h3>APP</h3></a>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images2/digitalindex.png">
+            <div class="layer">
+                <h3>DIGITAL</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
